@@ -1,0 +1,29 @@
+{
+    "name": "xiajin2015/utils",
+    "description": "this is xiajin2015 utils bag",
+    "type": "1",
+    "require": {
+        "php": ">=7.1.0",
+        "overtrue/pinyin": "^4.0",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-openssl": "*",
+        "ext-fileinfo": "*"
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "xiajin",
+        "email": "xiajin2004@163.com"
+    }],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Xiajin2015\\Utils\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "Xiajin2015\\Utils\\Tests\\": "tests/"
+        }
+    }
+}
